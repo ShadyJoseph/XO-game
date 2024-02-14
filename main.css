@@ -1,0 +1,53 @@
+:root{
+    --blue:rgb(0, 77, 152);
+    --red: rgb(168, 19, 62);
+    --yellow:rgb(237, 187, 0);
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    background-color:var(--blue);
+    color: var(--red);
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border: 2px solid var(--red);
+    border-radius: 30px;
+    padding: 5px;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.child{
+    width:32.5%;
+    height: 25vh;
+    background-color: var(--blue);
+    margin:3px;
+    transition: all 0.2s;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--red);
+    border: 2px solid var(--yellow);
+    border-radius: 15px;
+}
+.btn{
+    font-size: 20px;
+    background-color:var(--blue);
+    color: var(--red);
+    border: 2px solid var(--red);
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.divbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child:hover{
+    background-color:var(--blue) ;
+    transform: scale(1.05);
+}
+
